@@ -93,6 +93,7 @@ def main():
                 language="c++",
                 include_dirs=[os.path.join(re2_prefix, "include")] if re2_prefix else [],
                 libraries=["re2"],
+                extra_compile_args=['-std=c++11'],
                 library_dirs=[os.path.join(re2_prefix, "lib")] if re2_prefix else [],
                 runtime_library_dirs=[os.path.join(re2_prefix, "lib")] if re2_prefix else [],
             )
