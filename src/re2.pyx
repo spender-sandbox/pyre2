@@ -947,7 +947,7 @@ def _compile(pattern, int flags=0, int max_mem=8388608):
 
     opts.set_max_mem(max_mem)
     opts.set_log_errors(0)
-    opts.set_encoding(_re2.EncodingUTF8)
+    opts.set_encoding(_re2.EncodingLatin1)
 
     # We use this function to get the proper length of the string.
 
