@@ -11261,7 +11261,7 @@ static PyObject *__pyx_pf_3re2__compile(PyObject *__pyx_self, PyObject *__pyx_ar
  * 
  *     # We use this function to get the proper length of the string.
  */
-  __pyx_v_opts.set_encoding(RE2::Options::EncodingUTF8);
+  __pyx_v_opts.set_encoding(RE2::Options::EncodingLatin1);
 
   /* "/Users/maxiak/pyre2/src/re2.pyx":950
  *     # We use this function to get the proper length of the string.
